@@ -13,6 +13,7 @@ html {
     bottom: 30px;
     right: 30px;
     font-family: "inter", sans-serif;
+    z-index: 99999;
 }
 
 /* CONTENT IS CLOSE */
@@ -194,4 +195,14 @@ html {
     right: 20px;
     bottom: 20px;
     position: fixed;
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 767.98px) {
+
+    .chatbox{
+        bottom: 128px;
+
+    }
 }
